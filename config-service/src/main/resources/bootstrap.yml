@@ -6,9 +6,7 @@ spring:
   config:
    server:
     git:
-     uri: file:///Users/hardikbhalani/work/personalws/configuration
-   allowOverride: true
-   overrideNone: true
+     uri: file://Users/hardikbhalani/work/personalws/configuration
    overrideSystemProperties: false
  application:
   name: config-service
